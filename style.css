@@ -1,0 +1,229 @@
+body, html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 93vw;
+}
+.ul_nav {
+    display: flex;
+    gap: 1rem;
+    font-family: Helvetica;
+    list-style-type: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.ul_nav li{
+    margin-left: 1rem;
+}
+.button_header button{
+   background-color: white;
+   border: none;
+   cursor: pointer;
+}
+
+.baner {
+    background-color: #5D5DF3;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 2rem;
+    padding: 2.5rem;
+}
+.baner_title {
+    font-size: 4.5rem;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.baner_text{
+    font-size: 1.5rem;   
+    font-family: Helvetica;
+    width: 43rem; 
+}
+
+.baner button {
+    color: white;
+    background-color: black;
+    border-radius: 0.9rem;
+    font-family: Lato;
+    border: none;
+    width: 12.5rem;
+    height: 3.75rem;
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 2.25rem;
+    margin-top: 5rem;
+}
+.card_one {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.card_one button{
+    height: 100%;
+    align-self: center;
+    cursor:pointer ;
+    border: none;
+    background-color: white;
+}
+.card_one article{
+    font-family:Helvetica ;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.article_text{
+    font-size: 1rem;
+    color: #878787;
+}
+
+.btn_article{
+    
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.btn_article button{
+    font-size: 1.5rem;
+    width: 12.5rem;
+    height: 3.75rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: .9rem;
+    font-family: Lato;
+    cursor: pointer;
+   
+}
+.card_two{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.card_two article{
+    cursor: pointer;
+}
+.card_three{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.card_three article{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    background-image: url(images/dress.png); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+     
+}
+
+.card_three article:after{
+    background: linear-gradient(180deg, rgba(135, 135, 135, 0) 0%, #878787 100%);
+    position: absolute;
+
+}
+
+.card_three p{
+    font-size: 2rem;
+    color: white;
+    font-family: Helvetica;
+}
+.card_three button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: .9rem;
+    width: 13.75rem;
+    height: 3.75rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.text{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: Helvetica;
+    margin-top: 4rem;
+}
+.text h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.text p{
+    font-size: 1.5rem;
+}
+.card_four{
+    text-align: center;
+
+}
+
+.card_four button{
+   background-color: white;
+   border: none;
+   cursor: pointer;
+}
+.footer{
+    background-color:  #F7F7F9;
+    display: flex;
+    justify-content: space-between;
+    font-family: Helvetica;
+}
+.ul_footer{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.ul_footer li{
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+}
+.from{
+    width: 37%;
+    margin-top: 2rem;
+    margin-right: 6rem;
+}
+.from h3{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.from p{
+    font-size: 1.5rem;
+}
+.imput{
+    width: 100%;
+    border-radius: .9rem;
+    height: 3.75rem;
+    border-color: #DADADA;
+    font-size: 1.125rem;
+    padding-left: 1.5rem;
+}
+.from button{
+    background-color: black;
+    color: white;
+    border-radius: .9rem;
+    font-family: lato;
+    width: 13.75rem;
+    height: 3.75rem;
+    font-size: 1.5rem;
+}
